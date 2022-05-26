@@ -1,0 +1,11 @@
+import pyperclip
+def main():
+	while True:
+
+		if id == "q":
+			break
+		print("https://www.youtube.com/feeds/videos.xml?channel_id=" + id)
+		id = "https://www.youtube.com/feeds/videos.xml?channel_id=" + id
+		pyperclip.copy(id)
+		pyperclip.paste()
+main()
